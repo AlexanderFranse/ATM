@@ -14,7 +14,14 @@ Good Luck!!!
 ✅ - Write function to implement the logic
 
 # POMODORO 2
-- Test if the right number of nominal values will be withdrawned that equals or are below 1500. Example: 500 dollars. return 3 because it is exactly 1500
-  - Write unit test. Input: 500. Output: 3
-- Write function to implement the logic
+✅ - Test if the right number of nominal values will be withdrawned that equals or are below 1500. Example: 500 dollars. return 3 because it is exactly 1500
+  ✅ - Write unit test. Input: 500. Output: 3
+  ✅ - Write unit test. Input: 200. Output: 7
+  ✅ - Write unit test. Input: 100. Output: 15
+✅ - Write function to implement the logic
+
+# REFACTOR
+- Improve text description
+- Add extra validation to check that limit is not exceeded
+- Modify isNominalValuePositive method. It should return -1 when it is not possible to withdraw banknotes
 
