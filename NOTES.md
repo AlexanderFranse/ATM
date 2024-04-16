@@ -20,8 +20,15 @@ Good Luck!!!
   ✅ - Write unit test. Input: 100. Output: 15
 ✅ - Write function to implement the logic
 
+# POMODORO 3
+Validate if banknote does not exceed the limit of 1500
+ ✅ - Write unit test. Input: 1700. Output: -1
+
+✅ - Adjust solve function that the false flow returns -1 as well
+✅ - Improve code coverage back to 100%
+
 # REFACTOR
 - Improve text description
-- Add extra validation to check that limit is not exceeded
-- Modify isNominalValuePositive method. It should return -1 when it is not possible to withdraw banknotes
+✅ - Add extra validation to check that limit is not exceeded
+- Move solve function to component test level
 
