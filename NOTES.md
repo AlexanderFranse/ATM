@@ -21,11 +21,14 @@ Good Luck!!!
 ✅ - Write function to implement the logic
 
 # POMODORO 3
-Validate if banknote does not exceed the limit of 1500
+✅ Validate if banknote does not exceed the limit of 1500
  ✅ - Write unit test. Input: 1700. Output: -1
-
 ✅ - Adjust solve function that the false flow returns -1 as well
 ✅ - Improve code coverage back to 100%
+
+# POMODORO 4
+- Improve text description
+- Move solve function to component test level
 
 # REFACTOR
 - Improve text description
