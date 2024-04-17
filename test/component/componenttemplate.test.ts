@@ -12,9 +12,9 @@ describe("A user is able to withdraw an amount at the ATM. Only amounts between 
       expect(solve(750)).toBe(3);
     });
   });
-  describe("The ATM should return 0 when positive withdraw amount is below the least banknote or return -1 when given withdraw amount is negative", () => {
-    it("User want to print 1. Output is 0", () => {
-      expect(solve(1)).toBe(0);
+  describe("The ATM should return -1 when positive withdraw amount is below the least banknote or when given withdraw amount is negative", () => {
+    it("User want to print 1. Output is -1", () => {
+      expect(solve(1)).toBe(-1);
     });
     it("User want to print -10. Output is -1", () => {
       expect(solve(-10)).toBe(-1);

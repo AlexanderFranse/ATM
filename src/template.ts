@@ -1,13 +1,9 @@
-export function isNominalValuePositive(x: number) {
-  return x > 0;
-}
-
-export function isBanknoteWithinLimit(x: number) {
-  return x <= 1500;
+export function isWithdrawAmountTenOrMore(x: number) {
+  return x >= 10 && x <= 1500;
 }
 
 export function solve(x: number): number {
-  if (!isNominalValuePositive(x) || !isBanknoteWithinLimit(x)) {
+  if (!isWithdrawAmountTenOrMore(x)) {
     return -1;
   }
 

@@ -42,14 +42,17 @@ Sample test cases:
     ✅ - 500 --> 1
     ✅ - 1500 --> 3
     ✅ - 750 --> 3 (500/200/50)
-    ✅ - 1 --> -1
+    ✅ - 1 --> 0
     ✅ - -10 --> -1
 ✅ - Modify test description in component test
+
+# POMODORO 6
+✅ - Improve test description at unit level. 
+✅ - Adjust validation logic
+✅ - Adjust e2e test and test description 
+  
 
 # REFACTOR
 ✅ - Improve text description
 ✅ - Add extra validation to check that limit is not exceeded
 ✅ - Move solve function to component test level
-
-# QUESTIONS
-- Are validations still necessarry?
