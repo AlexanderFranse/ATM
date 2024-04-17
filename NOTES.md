@@ -6,6 +6,12 @@ Return that number, or -1 if it is impossible.
 
 Good Luck!!!
 
+Sample test cases:
+- 500 --> 1
+- 1500 --> 3
+- 1 --> 💣
+- 750 --> 3 (500/200/50)
+
 # POMODORO 1
 ✅ - Test if numbers are positive values
   ✅ - Write unit test. Input: 10. Output: true
