@@ -1,20 +1,23 @@
 import { solve } from "../../src/template";
 
-describe("The ATM should print out the number of banknotes that is within the limit of 1500. Example: 500 should print out 3 as it is exactly 1500", () => {
-  describe("After validations, we are able to check how much nominal values can be printed out by the ATM", () => {
-    it("The ATM should print out 3 banknotes of 500", () => {
-      expect(solve(500)).toBe(3);
+describe("A user is able to withdraw an amount at the ATM. Only amounts between 1 and 1500 are allowed to withdraw.", () => {
+  describe("After validations, we are able to determine the least number of banknotes that needs to be printed out depending on the withdraw amount chosen by the user", () => {
+    it("User want to print 1500. Output is 3", () => {
+      expect(solve(1500)).toBe(3);
     });
-    it("The ATM should print out 7 banknotes of 200", () => {
-      expect(solve(200)).toBe(7);
+    it("User want to print 500. Output is 1", () => {
+      expect(solve(500)).toBe(1);
     });
-    it("The ATM should print out 15 banknotes of 100", () => {
-      expect(solve(100)).toBe(15);
+    it("User want to print 750. Output is 3", () => {
+      expect(solve(750)).toBe(3);
     });
   });
-  describe("The ATM should not be able to print out banknotes when it does not pass the validations", () => {
-    it("The ATM should not print out banknotes when 10000 banknotes of 5 is given", () => {
-      expect(solve(10000)).toBe(-1);
+  describe("The ATM should return 0 when positive withdraw amount is below the least banknote or return -1 when given withdraw amount is negative", () => {
+    it("User want to print 1. Output is 0", () => {
+      expect(solve(1)).toBe(0);
+    });
+    it("User want to print -10. Output is -1", () => {
+      expect(solve(-10)).toBe(-1);
     });
   });
 });

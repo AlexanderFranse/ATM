@@ -33,11 +33,23 @@ Sample test cases:
 ✅ - Improve code coverage back to 100%
 
 # POMODORO 4
-- Improve text description
-- Move solve function to component test level
+✅ - Improve text description
+✅ - Move solve function to component test level
+
+# POMODORO 5
+✅ - Modify solve function 
+  ✅ - Adjust component test. 
+    ✅ - 500 --> 1
+    ✅ - 1500 --> 3
+    ✅ - 750 --> 3 (500/200/50)
+    ✅ - 1 --> -1
+    ✅ - -10 --> -1
+✅ - Modify test description in component test
 
 # REFACTOR
-- Improve text description
+✅ - Improve text description
 ✅ - Add extra validation to check that limit is not exceeded
-- Move solve function to component test level
+✅ - Move solve function to component test level
 
+# QUESTIONS
+- Are validations still necessarry?
