@@ -51,8 +51,16 @@ Sample test cases:
 ✅ - Adjust validation logic
 ✅ - Adjust e2e test and test description 
   
+# POMODORO 7
+✅ - Improved code/test description/function names based on code review
 
 # REFACTOR
 ✅ - Improve text description
 ✅ - Add extra validation to check that limit is not exceeded
 ✅ - Move solve function to component test level
+
+# COMMENT ON FEEDBACK
+
+ todo: waarom disable je de linter?
+  Van de Linter mag ik helemaal geen enhanced for loop gebruiken. Alleen mij is aangeleerd dat het een mooiere manier is dan de 'classic for loop'. 
+  De solve (nu leastNumberOfBanknotes) functie heeft in elk geval wel een for loop nodig
