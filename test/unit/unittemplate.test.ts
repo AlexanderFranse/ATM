@@ -3,7 +3,7 @@ import {
   leastNumberOfBanknotes,
 } from "../../src/template";
 
-describe(`A user is able to withdraw an amount at the ATM. Only amounts between 1 and 1500 are allowed to withdraw.
+describe(`A user is able to withdraw an amount at the ATM. Only amounts between 10 and 1500 are allowed to withdraw.
 Before the ATM withdraws any banknotes, a validation is needed if the withdraw amount is between 10 and 1500`, () => {
   describe("The ATM is able to validate withdraw amounts of: ", () => {
     it("10. The ATM is able to withdraw the chosen amount by the user", () => {
