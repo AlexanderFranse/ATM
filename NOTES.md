@@ -61,6 +61,7 @@ Sample test cases:
 
 # COMMENT ON FEEDBACK
 
+// TODO: check. Zou je het toch kunnen refactoren? ESlint geeft wel goede redenen om dit niet te gebruiken (o.a. performance).
  todo: waarom disable je de linter?
   Van de Linter mag ik helemaal geen enhanced for loop gebruiken. Alleen mij is aangeleerd dat het een mooiere manier is dan de 'classic for loop'. 
   De solve (nu leastNumberOfBanknotes) functie heeft in elk geval wel een for loop nodig

@@ -9,6 +9,7 @@ Before the ATM withdraws any banknotes, a validation is needed if the withdraw a
     it("10. The ATM is able to withdraw the chosen amount by the user", () => {
       expect(isWithdrawAmountWithinLimit(10)).toBeTruthy();
     });
+    // TODO: zoek de fout.. ;-)
     it("1500. The ATM is able to withdraw the chosen amount by the user", () => {
       expect(isWithdrawAmountWithinLimit(1200)).toBeTruthy();
     });
@@ -27,6 +28,8 @@ Before the ATM withdraws any banknotes, a validation is needed if the withdraw a
       expect(isWithdrawAmountWithinLimit(-20)).toBeFalsy();
     });
   });
+
+  // TODO: ik had nog een opmerking toegevoegd waarin stond dat je nog wat exotischere testcases toe kan voegen, om de functionaliteit beter te testen. Zou je dat nog kunnen doen?
   describe("After the isWithinLimit validation, we are able to determine the least number of banknotes that needs to be printed out depending on the withdraw amount chosen by the user", () => {
     it("User want to print 1500. Output is 3", () => {
       expect(leastNumberOfBanknotes(1500)).toBe(3);
