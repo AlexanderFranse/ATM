@@ -1,5 +1,7 @@
 import { solve } from "../../src/template";
 
+// TODO: Foei! White belt = geen component tests toegestaan ;) Zou je dit kunnen verplaatsen naar unit?
+// TODO: Probeer eens wat complexe testcases toe te voegen om de randjes van je logica op te zoeken. Bijv. 1499 en dat soort leuke getallen.
 describe("A user is able to withdraw an amount at the ATM. Only amounts between 1 and 1500 are allowed to withdraw.", () => {
   describe("After validations, we are able to determine the least number of banknotes that needs to be printed out depending on the withdraw amount chosen by the user", () => {
     it("User want to print 1500. Output is 3", () => {
