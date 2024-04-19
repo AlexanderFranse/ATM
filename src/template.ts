@@ -11,8 +11,8 @@ export function leastNumberOfBanknotes(withdrawAmount: number): number {
   let remainingAmount = withdrawAmount;
   let numberOfBanknotes = 0;
 
-  // eslint-disable-next-line no-restricted-syntax
-  for (const banknote of bankNotesList) {
+  for (let i = 0; i < bankNotesList.length; i += 1) {
+    const banknote = bankNotesList[i];
     const banknoteCount = Math.floor(remainingAmount / banknote);
     numberOfBanknotes += banknoteCount;
     remainingAmount -= banknoteCount * banknote;
